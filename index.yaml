@@ -3103,6 +3103,28 @@ entries:
     version: 1.6.4
   jupyterlab-playground:
   - apiVersion: v2
+    created: "2024-08-16T09:23:09.18174566Z"
+    dependencies:
+    - name: library-chart
+      repository: https://statisticsnorway.github.io/dapla-lab-helm-charts-services
+      version: 3.2.3
+    description: The JupyterLab IDE with Python, tailored for SSB's data platform
+      (Dapla).
+    digest: c837ac324b3bc0966ae1bb802859453a52171a28e5396514353c6e4655205029
+    home: https://jupyter.org/
+    icon: https://raw.githubusercontent.com/statisticsnorway/dapla-lab-helm-charts-services/d881cef65161a7209ac7c85fbcb6608581249dc1/icons/jupyter.png
+    keywords:
+    - Jupyter
+    - Python
+    name: jupyterlab-playground
+    sources:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard-test
+    - https://github.com/statisticsnorway/dapla-lab-images
+    type: application
+    urls:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard/releases/download/jupyterlab-playground-0.3.13/jupyterlab-playground-0.3.13.tgz
+    version: 0.3.13
+  - apiVersion: v2
     created: "2024-08-15T13:25:34.683255483Z"
     dependencies:
     - name: library-chart
@@ -5375,4 +5397,4 @@ entries:
     urls:
     - https://github.com/statisticsnorway/dapla-lab-helm-charts-experimental/releases/download/vscode-python-buckets-0.0.1/vscode-python-buckets-0.0.1.tgz
     version: 0.0.1
-generated: "2024-08-16T07:58:12.465571059Z"
+generated: "2024-08-16T09:23:09.182063871Z"

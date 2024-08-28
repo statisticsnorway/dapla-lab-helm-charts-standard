@@ -2,7 +2,6 @@
 
 ![Version: 0.3.21](https://img.shields.io/badge/Version-0.3.21-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
 
-
 Minimal VS Code med Python. Brukeren kan selv installere pakker etter behov.
 
 **Homepage:** <https://code.visualstudio.com/>

@@ -2,7 +2,7 @@ global:
   suspend: false
 service:
   image:
-    version: "vscode-python"
+    version: "europe-west4-docker.pkg.dev/artifact-registry-5n/dapla-lab-docker/onyxia/vscode-python:py311-2024.08.27"
     pullPolicy: IfNotPresent
 
 security:

@@ -75,6 +75,27 @@ entries:
     version: 0.9.29
   jdemetra:
   - apiVersion: v2
+    created: "2025-03-10T10:45:04.240344477Z"
+    dependencies:
+    - name: library-chart
+      repository: https://statisticsnorway.github.io/dapla-lab-helm-charts-library
+      version: 4.2.9
+    description: Verktøy for sesongjustering og tidsserie-analyse utviklet i samarbeid
+      med Eurostat.
+    digest: 8887b657f2767d6e779fcca8562e1add4eaaa06d3ac12074d34d78c4b9308d1a
+    home: https://manual.dapla.ssb.no/statistikkere/jdemetra.html
+    icon: https://avatars.githubusercontent.com/u/10142886
+    keywords:
+    - JDemetra
+    name: jdemetra
+    sources:
+    - https://github.com/statisticsnorway/dapla-lab-images
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard
+    type: application
+    urls:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard/releases/download/jdemetra-1.0.16/jdemetra-1.0.16.tgz
+    version: 1.0.16
+  - apiVersion: v2
     created: "2025-02-06T07:43:41.092724451Z"
     dependencies:
     - name: library-chart
@@ -2857,6 +2878,28 @@ entries:
     version: 0.3.6
   vscode-python:
   - apiVersion: v2
+    created: "2025-03-10T10:45:04.427712618Z"
+    dependencies:
+    - name: library-chart
+      repository: https://statisticsnorway.github.io/dapla-lab-helm-charts-library
+      version: 4.2.10
+    description: Minimal VS Code med Python. Brukeren kan selv installere pakker etter
+      behov.
+    digest: 0771dd60c1ba2797200e05328b05afca3674a145f0f7b2755597d6b39c17c6ba
+    home: https://manual.dapla.ssb.no/statistikkere/vscode-python.html
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - VSCode
+    - Python
+    name: vscode-python
+    sources:
+    - https://github.com/statisticsnorway/dapla-lab-images
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-library
+    type: application
+    urls:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard/releases/download/vscode-python-0.7.40/vscode-python-0.7.40.tgz
+    version: 0.7.40
+  - apiVersion: v2
     created: "2025-02-26T16:44:03.406072622Z"
     dependencies:
     - name: library-chart
@@ -3780,4 +3823,4 @@ entries:
     urls:
     - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard-test/releases/download/vscode-python-0.3.6/vscode-python-0.3.6.tgz
     version: 0.3.6
-generated: "2025-02-26T16:44:03.406948794Z"
+generated: "2025-03-10T10:45:04.428503713Z"

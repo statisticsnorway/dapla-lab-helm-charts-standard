@@ -658,6 +658,29 @@ entries:
     version: 1.0.3
   jupyter:
   - apiVersion: v2
+    created: "2026-06-19T12:37:48.986769687Z"
+    dependencies:
+    - name: library-chart
+      repository: https://statisticsnorway.github.io/dapla-lab-helm-charts-library
+      version: 4.6.1
+    description: Minimal Jupyterlab med Python og R. Brukeren kan selv installere
+      pakker.
+    digest: f3609c580489464c7fbfef41ae405c11dcade768151744dbc5cb2fcca9c89947
+    home: https://manual.dapla.ssb.no/statistikkere/jupyter.html
+    icon: https://raw.githubusercontent.com/statisticsnorway/dapla-lab-helm-charts-services/d881cef65161a7209ac7c85fbcb6608581249dc1/icons/jupyter.png
+    keywords:
+    - Jupyter
+    - Python
+    name: jupyter
+    sources:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard-test
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-library
+    - https://github.com/statisticsnorway/dapla-lab-images
+    type: application
+    urls:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard/releases/download/jupyter-0.18.15/jupyter-0.18.15.tgz
+    version: 0.18.15
+  - apiVersion: v2
     created: "2026-06-05T09:07:51.598383512Z"
     dependencies:
     - name: library-chart
@@ -2380,6 +2403,29 @@ entries:
     - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard-test/releases/download/jupyter-0.3.8/jupyter-0.3.8.tgz
     version: 0.3.8
   jupyter-playground:
+  - apiVersion: v2
+    created: "2026-06-19T12:37:49.147366392Z"
+    dependencies:
+    - name: library-chart
+      repository: https://statisticsnorway.github.io/dapla-lab-helm-charts-library
+      version: 4.6.1
+    description: Jupyterlab med Python og R og mange vanlige pakker ferdig installert.
+      Passer godt for de som skal lære R og Python uten for mye kompleksitet.
+    digest: 652d096466d27a11f9a3d9dfc17eac05cfc85e83bdffa0bbddf380d62d29dad6
+    home: https://manual.dapla.ssb.no/statistikkere/jupyter-playground.html
+    icon: https://raw.githubusercontent.com/statisticsnorway/dapla-lab-helm-charts-services/d881cef65161a7209ac7c85fbcb6608581249dc1/icons/jupyter.png
+    keywords:
+    - Jupyter
+    - Python
+    name: jupyter-playground
+    sources:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard-test
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-library
+    - https://github.com/statisticsnorway/dapla-lab-images
+    type: application
+    urls:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard/releases/download/jupyter-playground-0.17.14/jupyter-playground-0.17.14.tgz
+    version: 0.17.14
   - apiVersion: v2
     created: "2026-06-05T09:07:51.848680757Z"
     dependencies:
@@ -5159,6 +5205,28 @@ entries:
     version: 0.0.4
   rstudio:
   - apiVersion: v2
+    created: "2026-06-19T12:37:49.309947079Z"
+    dependencies:
+    - name: library-chart
+      repository: https://statisticsnorway.github.io/dapla-lab-helm-charts-library
+      version: 4.6.1
+    description: Minimal RStudio med R. Brukeren kan selv installere pakker.
+    digest: bcf36b3025148caaa77e1d255a57bb4843d7111e456425bc7f0250e11381a94f
+    home: https://manual.dapla.ssb.no/statistikkere/rstudio.html
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/rstudio.png
+    keywords:
+    - RStudio
+    - R
+    name: rstudio
+    sources:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard-test
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-library
+    - https://github.com/statisticsnorway/dapla-lab-images
+    type: application
+    urls:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard/releases/download/rstudio-0.15.9/rstudio-0.15.9.tgz
+    version: 0.15.9
+  - apiVersion: v2
     created: "2026-06-05T08:32:06.660545757Z"
     dependencies:
     - name: library-chart
@@ -6653,6 +6721,32 @@ entries:
   - annotations:
       environment: test
     apiVersion: v2
+    created: "2026-06-19T12:37:49.503239733Z"
+    dependencies:
+    - name: library-chart
+      repository: https://statisticsnorway.github.io/dapla-lab-helm-charts-library
+      version: 4.6.1
+    description: VS Code med Python, R og støtte for AI. Brukeren kan selv installere
+      pakker etter behov.
+    digest: 444e9709c2a6d177257c76ca502cf28ef9d34759d2049730605685f741b9fec9
+    home: https://manual.dapla.ssb.no/statistikkere/vscode-python.html
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - VSCode
+    - Python
+    - R
+    - AI
+    name: vscode-ai
+    sources:
+    - https://github.com/statisticsnorway/dapla-lab-images
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-library
+    type: application
+    urls:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard/releases/download/vscode-ai-0.18.12/vscode-ai-0.18.12.tgz
+    version: 0.18.12
+  - annotations:
+      environment: test
+    apiVersion: v2
     created: "2026-06-17T13:29:03.862557305Z"
     dependencies:
     - name: library-chart
@@ -6729,6 +6823,28 @@ entries:
     - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard/releases/download/vscode-ai-0.18.3/vscode-ai-0.18.3.tgz
     version: 0.18.3
   vscode-python:
+  - apiVersion: v2
+    created: "2026-06-19T12:37:49.697577842Z"
+    dependencies:
+    - name: library-chart
+      repository: https://statisticsnorway.github.io/dapla-lab-helm-charts-library
+      version: 4.6.1
+    description: Minimal VS Code med Python. Brukeren kan selv installere pakker etter
+      behov.
+    digest: f8e52593909aa2c58af6bdf94378466f4afd43781bcc7b11bb22a49ae50815ab
+    home: https://manual.dapla.ssb.no/statistikkere/vscode-python.html
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - VSCode
+    - Python
+    name: vscode-python
+    sources:
+    - https://github.com/statisticsnorway/dapla-lab-images
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-library
+    type: application
+    urls:
+    - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard/releases/download/vscode-python-0.18.2/vscode-python-0.18.2.tgz
+    version: 0.18.2
   - apiVersion: v2
     created: "2026-06-05T08:32:07.065108781Z"
     dependencies:
@@ -8577,4 +8693,4 @@ entries:
     urls:
     - https://github.com/statisticsnorway/dapla-lab-helm-charts-standard-test/releases/download/vscode-python-0.3.6/vscode-python-0.3.6.tgz
     version: 0.3.6
-generated: "2026-06-17T13:29:03.863396576Z"
+generated: "2026-06-19T12:37:49.69886478Z"

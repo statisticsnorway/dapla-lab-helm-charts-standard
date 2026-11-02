@@ -1,6 +1,6 @@
 # datadoc-editor
 
-![Version: 0.15.5](https://img.shields.io/badge/Version-0.15.5-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
+![Version: 0.15.6](https://img.shields.io/badge/Version-0.15.6-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
 
 Applikasjon for å dokumentere datasett i SSB.
 
